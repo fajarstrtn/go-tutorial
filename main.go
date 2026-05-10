@@ -19,9 +19,13 @@
  * 3. File must be named something.go */
 package main
 
+import (
+	"github.com/fajarstrtn/go-tutorial/introduction"
+)
+
 /*
  * When you run a program, Go automatically starts executing main function.
  * No main function means nothing runs. */
 func main() {
-	// Write your code here...
+	introduction.Greet()
 }
