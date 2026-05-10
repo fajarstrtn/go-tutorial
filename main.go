@@ -27,6 +27,7 @@ package main
 
 // The import keyword is used to bring in code from other packages.
 import (
+	"github.com/fajarstrtn/go-tutorial/comment"
 	"github.com/fajarstrtn/go-tutorial/introduction"
 )
 
@@ -43,4 +44,6 @@ import (
 // Moving it to the next line will cause a syntax error.
 func main() {
 	introduction.Greet()
+	comment.PutSingleLineComment()
+	comment.PutMultiLineComment()
 }
