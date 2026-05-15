@@ -28,6 +28,7 @@ package main
 // The import keyword is used to bring in code from other packages.
 import (
 	"github.com/fajarstrtn/go-tutorial/comment"
+	"github.com/fajarstrtn/go-tutorial/format"
 	"github.com/fajarstrtn/go-tutorial/introduction"
 )
 
@@ -46,4 +47,5 @@ func main() {
 	introduction.Greet()
 	comment.PutSingleLineComment()
 	comment.PutMultiLineComment()
+	format.PrintSomething()
 }
