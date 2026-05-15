@@ -49,4 +49,5 @@ func main() {
 	comment.PutMultiLineComment()
 	format.PrintSomething()
 	format.PrintSomethingWithNewLine()
+	format.PrintSomethingWithLog()
 }
