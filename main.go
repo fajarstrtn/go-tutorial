@@ -48,4 +48,5 @@ func main() {
 	comment.PutSingleLineComment()
 	comment.PutMultiLineComment()
 	format.PrintSomething()
+	format.PrintSomethingWithNewLine()
 }
