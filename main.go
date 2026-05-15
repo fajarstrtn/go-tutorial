@@ -50,4 +50,5 @@ func main() {
 	format.PrintSomething()
 	format.PrintSomethingWithNewLine()
 	format.PrintSomethingWithLog()
+	format.PrintSomethingWithSprintf()
 }
