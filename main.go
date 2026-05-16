@@ -59,6 +59,8 @@ func main() {
 	identifier.GetCarDetail()
 	identifier.GetKeywords()
 	identifier.GetConstants()
+	identifier.DeclareUsingVar()
+	identifier.DeclareUsingShortVariableDeclaration()
 
 	exportVariable()
 }
