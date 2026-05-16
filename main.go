@@ -27,8 +27,11 @@ package main
 
 // The import keyword is used to bring in code from other packages.
 import (
+	"fmt"
+
 	"github.com/fajarstrtn/go-tutorial/comment"
 	"github.com/fajarstrtn/go-tutorial/format"
+	"github.com/fajarstrtn/go-tutorial/identifier"
 	"github.com/fajarstrtn/go-tutorial/introduction"
 )
 
@@ -52,4 +55,10 @@ func main() {
 	format.PrintSomethingWithLog()
 	format.PrintSomethingWithSprintf()
 	format.PrintSomethingWithFormattingVerbs()
+
+	exportVariable()
+}
+
+func exportVariable() {
+	fmt.Printf("%s is being called\n", identifier.ExportedVariable) // Output: Exported Variable is being called
 }
