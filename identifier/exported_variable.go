@@ -1,7 +1,19 @@
 package identifier
 
-// The identifier which is allowed to access it-
+// Identifier which is allowed to access it-
 // from another package is known as the exported identifier.
+// An identifier (a variable, function, type, constant, or struct field)-
+// is exported when it is visible and accessible to packages-
+// other than the one in which it is defined.
+//
+// Exported Variable  : Starts with an uppercase letter (e.g., Config, Calculate)
+// Unexported Variable: Starts with a lowercase letter (e.g., secretKey, helperFunc)
+// These are "package-private."
+//
+// In Go, the concept of an Exported Identifier-
+// is the language's built-in mechanism for access control.
+// Unlike languages that use keywords like public or private,
+// Go uses a simple, elegant rule based on the casing of the first letter.
 //
 // The exported identifiers are those identifiers-
 // which obey the following condition:

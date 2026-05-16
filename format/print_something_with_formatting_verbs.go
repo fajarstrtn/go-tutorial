@@ -49,7 +49,7 @@ func PrintSomethingWithFormattingVerbs() {
 
 	user := User{"John Doe", 20}
 
-	// Using %v is the same as "use Go's default rule".
+	// Using %v is the same as "use Go's default rule."
 	fmt.Printf("%v\n", user) // Output: {John Doe 20}
 
 	// It's Go-syntax representation (great for debugging).
