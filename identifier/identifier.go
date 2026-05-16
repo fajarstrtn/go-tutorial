@@ -51,11 +51,12 @@ func Identify() {
 	var name2 string = "Davis"
 	var full_name string = "Pearl Davis"
 
-	fmt.Println(name)             // Output: Emerson Santiago
-	fmt.Println(_nickName)        // Output: Emerson
-	fmt.Println(Name)             // Output: Lillie Moon
-	fmt.Println(nickN4me)         // Output: Moon
-	fmt.Println(name2)            // Output: Davis
-	fmt.Println(full_name)        // Output: Pearl Davis
-	fmt.Println(ExportedVariable) // Output: Exported Variable
+	fmt.Println(name)                 // Output: Emerson Santiago
+	fmt.Println(_nickName)            // Output: Emerson
+	fmt.Println(Name)                 // Output: Lillie Moon
+	fmt.Println(nickN4me)             // Output: Moon
+	fmt.Println(name2)                // Output: Davis
+	fmt.Println(full_name)            // Output: Pearl Davis
+	fmt.Println(ExportedVariable)     // Output: Exported Variable
+	fmt.Println(packageScopeVariable) // Output: Package-Scope Variable
 }

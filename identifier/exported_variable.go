@@ -7,8 +7,17 @@ package identifier
 // other than the one in which it is defined.
 //
 // Exported Variable  : Starts with an uppercase letter (e.g., Config, Calculate)
-// Unexported Variable: Starts with a lowercase letter (e.g., secretKey, helperFunc)
-// These are "package-private."
+// Unexported Variable: Starts with a lowercase letter (e.g., secretKey, helperFunc). These are "package-private."
+//
+// The Go compiler enforces visibility at the package level.
+// 1. Scope            : If an identifier is unexported, it can only be seen-
+// by other files within the same package.
+// 2. Naming Convention: This approach eliminates "keyword noise" in the code.
+// You can tell at a glance whether a function is part of a package's public API-
+// or an internal helper just by looking at its name.
+// 3. Struct Fields    : This rule also applies to fields within a struct.
+// If a struct is exported but its fields are lowercase,
+// those fields cannot be accessed or modified from outside the package.
 //
 // In Go, the concept of an Exported Identifier-
 // is the language's built-in mechanism for access control.
@@ -37,4 +46,16 @@ package identifier
 // Snake Case (using underscores) is generally discouraged in Go.
 // The only exception is for file names, where snake_case.go is acceptable,
 // although camelCase.go is also common.
-var ExportedVariable string = "Exported Variable"
+//
+// Expert Go developers often use unexported fields to create Opaque Structs.
+// This ensures that the internal state of a component cannot be "clobbered"-
+// by an external user, maintaining a strict contract through exported methods.
+//
+// To use an exported identifier, you must:
+// 1. Define it in a package with an uppercase starting letter
+// 2. Import that package into your current file
+// 3. Access it using the package name as a prefix (e.g., pkgName.Identifier)
+var (
+	ExportedVariable     string = "Exported Variable"
+	packageScopeVariable string = "Package-Scope Variable"
+)
