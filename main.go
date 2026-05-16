@@ -57,6 +57,7 @@ func main() {
 	format.PrintSomethingWithFormattingVerbs()
 	identifier.Identify()
 	identifier.GetCarDetail()
+	identifier.GetKeywords()
 
 	exportVariable()
 }
