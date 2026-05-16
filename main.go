@@ -58,6 +58,7 @@ func main() {
 	identifier.Identify()
 	identifier.GetCarDetail()
 	identifier.GetKeywords()
+	identifier.GetConstants()
 
 	exportVariable()
 }
