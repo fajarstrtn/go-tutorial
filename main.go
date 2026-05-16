@@ -55,6 +55,7 @@ func main() {
 	format.PrintSomethingWithLog()
 	format.PrintSomethingWithSprintf()
 	format.PrintSomethingWithFormattingVerbs()
+	identifier.Identify()
 
 	exportVariable()
 }
