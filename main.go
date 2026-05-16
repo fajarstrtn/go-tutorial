@@ -30,6 +30,7 @@ import (
 	"fmt"
 
 	"github.com/fajarstrtn/go-tutorial/comment"
+	"github.com/fajarstrtn/go-tutorial/datatype"
 	"github.com/fajarstrtn/go-tutorial/format"
 	"github.com/fajarstrtn/go-tutorial/identifier"
 	"github.com/fajarstrtn/go-tutorial/introduction"
@@ -61,6 +62,7 @@ func main() {
 	identifier.GetConstants()
 	identifier.DeclareUsingVar()
 	identifier.DeclareUsingShortVariableDeclaration()
+	datatype.GetSignedIntegers()
 
 	exportVariable()
 }
