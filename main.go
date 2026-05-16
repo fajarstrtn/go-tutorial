@@ -56,6 +56,7 @@ func main() {
 	format.PrintSomethingWithSprintf()
 	format.PrintSomethingWithFormattingVerbs()
 	identifier.Identify()
+	identifier.GetCarDetail()
 
 	exportVariable()
 }

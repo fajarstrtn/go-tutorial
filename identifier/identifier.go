@@ -59,4 +59,7 @@ func Identify() {
 	fmt.Println(full_name)            // Output: Pearl Davis
 	fmt.Println(ExportedVariable)     // Output: Exported Variable
 	fmt.Println(packageScopeVariable) // Output: Package-Scope Variable
+	fmt.Println(carName)              // Output: Toyota Corolla
+	fmt.Println(carType)              // Output: Sedan
+	fmt.Println(cc)                   // Output: 1600
 }
