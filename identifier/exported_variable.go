@@ -9,6 +9,10 @@ package identifier
 // Exported Variable  : Starts with an uppercase letter (e.g., Config, Calculate)
 // Unexported Variable: Starts with a lowercase letter (e.g., secretKey, helperFunc). These are "package-private."
 //
+// An identifier is only considered exported if it can be accessed-
+// by an external package (a completely different folder or package-
+// in your project or an external library).
+//
 // The Go compiler enforces visibility at the package level.
 // 1. Scope            : If an identifier is unexported, it can only be seen-
 // by other files within the same package.
