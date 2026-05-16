@@ -51,4 +51,5 @@ func main() {
 	format.PrintSomethingWithNewLine()
 	format.PrintSomethingWithLog()
 	format.PrintSomethingWithSprintf()
+	format.PrintSomethingWithFormattingVerbs()
 }
