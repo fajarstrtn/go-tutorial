@@ -64,6 +64,7 @@ func main() {
 	identifier.DeclareUsingShortVariableDeclaration()
 	datatype.GetSignedIntegers()
 	datatype.GetUnsignedIntegers()
+	datatype.GetUintptr()
 
 	exportVariable()
 }
