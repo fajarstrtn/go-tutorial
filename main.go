@@ -67,6 +67,7 @@ func main() {
 	datatype.GetUintptr()
 	datatype.GetStrings()
 	datatype.GetRune()
+	datatype.GetFloatNumbers()
 
 	exportVariable()
 }
