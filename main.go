@@ -66,6 +66,7 @@ func main() {
 	datatype.GetUnsignedIntegers()
 	datatype.GetUintptr()
 	datatype.GetStrings()
+	datatype.GetRune()
 
 	exportVariable()
 }
