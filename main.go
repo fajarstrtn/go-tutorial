@@ -70,6 +70,7 @@ func main() {
 	datatype.GetFloatNumbers()
 	datatype.GetComplexNumbers()
 	datatype.GetBytes()
+	datatype.GetBooleans()
 
 	exportVariable()
 }
