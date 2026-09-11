@@ -69,6 +69,7 @@ func main() {
 	datatype.GetRune()
 	datatype.GetFloatNumbers()
 	datatype.GetComplexNumbers()
+	datatype.GetBytes()
 
 	exportVariable()
 }
